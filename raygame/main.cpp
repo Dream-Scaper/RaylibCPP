@@ -10,6 +10,7 @@
 ********************************************************************************************/
 
 #include "raylib.h"
+#include "Meep.h"
 
 int main()
 {
@@ -17,6 +18,7 @@ int main()
 	//--------------------------------------------------------------------------------------
 	int screenWidth = 800;
 	int screenHeight = 450;
+	//Meep playerMeep(true, "Meep.png", 350.0f, 200.0f);
 
 	InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
 
